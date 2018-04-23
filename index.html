@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Cookies!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+   <div id="container">
+       <header>
+        
+             <div class="bg-circle">
+                  <div class="circle-1"></div>
+                  <div class="circle-2"></div>
+                  <div class="circle-3"></div> 
+             </div>
+      
+          <div class="logo-side">
+                <a href="https://adcookie.pl/"><img class="logo" src="photo/logo.png" alt="AdCookie Logo"></a>    
+          </div>
+           
+           <main id="main-box">
+              
+              <div class="welcom-text main-left">
+                  
+                  <h2>Witaj w najlepszej ciastkarni w mieście!</h2>
+               <p>Skoro tu jesteś to pewnie szukasz agencji marketingowej która spełni wszystkie twoje oczekiwania i kompleksowo zajmie się marketingiem. Otóż obecnie nasz dział designu wypieka wyłącznie ciastka według receptury babci Stasi, która czynnie uczestniczy w życiu naszej firmy. Nie znasz babci Stasi? Zostaw maila, z pewnością się odezwie do Ciebie!</p>
+                  
+              </div>
+               
+               <div class="form-box main main-right">
+                 
+                <form id="commentForm" class="main-form" action="mail.php" method="post">
+                  
+                   <h2>Darmowe ciacho!</h2>
+                   <p>Zostaw nam swój email a my wyślemy Ci cały karton naszych przepysznych ciastek. Nie martw się, że w formularzu nie ma adresu - wiemy gdzie mieszkasz</p>
+                   
+                   <input id="inputName" name="name" type="text" placeholder="Wpisz Imię i Nazwisko" required>
+                   <input id="inputEmail" name="email" type="email" placeholder="Wpisz swój e-mail" required>
+                   
+                   <div class="checkbox-side">
+                       
+                     <input type="checkbox" name="agree"><label class="check-text" for="checkbox-form">Wyrażam zgodę na dożywotnią, odpłatną dostawę ciastek do mojego domu!</label>  
+                       
+                   </div>
+                   <button type="submit" class="submit" >Wyślij mi ciacho!</button>
+                   
+               </form>
+                       
+               </div>
+               
+           </main>
+       </header>
+       <section id="s-menu">
+          <h2>Poznaj nasze ciacha!</h2>
+             <span>Mówią, że ciekawość to pierwszy stopień do piekła, w naszym przypadku doprowadzi Cię on tylko do pełnego żołądka! :) </span>
+              
+            <div class="cookies">
+                
+                <div class="cookie-czeko">
+                  <img src="photo/ciastko.png" alt="Ciastko czekoladowe">
+                  <p>Czekoladowy Raj</p>
+                </div>
+                <div class="cookie-muff">
+                   <img src="photo/ciastko.png" alt="Ciastko malinowe">
+                   <p>Malinowa Chmurka</p>
+                </div>
+                <div class="cookie-jan">
+                   <img src="photo/ciastko.png" alt="Ciastko jagodowe">
+                    <p>Słodka Jagoda</p>
+                </div>
+                <div class="cookie-jar">
+                   <img src="photo/ciastko.png" alt="Ciastko o smaku limonki">
+                   <p>Kwaśna Limonka</p>
+                </div> 
+                
+            </div>
+   
+       </section>
+       
+       <section id="s-factory">
+          
+           <h1>Jak wypiekamy nasze ciacha?</h1>
+           <p>Może nie zdradzimy Ci naszych pilnie strzeżonych sekretów, ale z chęcią zaprosimy Cię do naszej fabryki! Podczas odwiedzin na własne oczy zobaczysz jak powstają najlepsze na świecie ciacha i poznasz masę
+           utalentowanych cukierników.</p>
+           
+           <div class="circle-3"></div>
+           
+       </section>
+       <footer class="footer-box">
+           
+           <h3>Chcesz wiedzieć więcej o ciastkach?</h3>
+           <p>Odwiedź nasze social media - znajdziesz tam masę fajnych rzeczy... prawie tak fajnych jak my :) </p>
+           <a href="#"><i class="fab fa-linkedin"></i></a>
+           <a href="#"><i class="fab fa-facebook-square"></i></a>
+           <a href="#"><i class="fab fa-twitter-square"></i></a>
+           
+       </footer> 
+       
+   </div>
+   
+   <!--SCRIPTS-->
+   
+   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.js"></script>
+   
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
